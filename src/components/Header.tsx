@@ -154,7 +154,7 @@ const Header: React.FC = () => {
               position: "relative",
             }}
           >
-            Vadank
+            Creator: Vadank
           </span>{" "}
           through your SCREEN!
         </h1>

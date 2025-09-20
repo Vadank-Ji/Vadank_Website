@@ -207,9 +207,9 @@ npm run build
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+## 👤 Creator
 
-**Vadank**
+**Creator: Vadank**
 
 - GitHub: [@Vadank-Ji](https://github.com/Vadank-Ji)
 - LinkedIn: [Vadank Ji](https://www.linkedin.com/in/vadankji)
