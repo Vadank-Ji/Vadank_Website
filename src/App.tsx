@@ -60,8 +60,8 @@ const App: React.FC = () => {
               x2="100%"
               y2="100%"
             >
-              <stop offset="0%" stopColor="rgba(120, 119, 198, 0.6)" />
-              <stop offset="100%" stopColor="rgba(255, 119, 198, 0.6)" />
+              <stop offset="0%" stopColor="rgba(220, 38, 127, 0.8)" />
+              <stop offset="100%" stopColor="rgba(255, 99, 71, 0.6)" />
             </linearGradient>
           </defs>
 
@@ -124,8 +124,8 @@ const App: React.FC = () => {
           <Dropdown
             title="Skills"
             items={["🌐 HTML", "🎨 CSS", "⚙️ C", "🔧 C++", "🐍 Basic Python"]}
-            backgroundColor="rgba(0, 255, 255, 0.1)"
-            accentColor="#00ffff"
+            backgroundColor="rgba(220, 38, 127, 0.15)"
+            accentColor="#dc267f"
           />
         </div>
 
@@ -149,8 +149,8 @@ const App: React.FC = () => {
               "🧩 Solving puzzles & brain games",
               "📱 Social media browsing",
             ]}
-            backgroundColor="rgba(255, 255, 0, 0.1)"
-            accentColor="#ffff00"
+            backgroundColor="rgba(255, 99, 71, 0.15)"
+            accentColor="#ff6347"
           />
         </div>
 
@@ -158,7 +158,7 @@ const App: React.FC = () => {
         <div
           style={{
             position: "absolute",
-            right: "10%",
+            right: "15%",
             top: "55%",
             animation: "float 12s ease-in-out infinite 3s",
             zIndex: 5,
@@ -167,8 +167,8 @@ const App: React.FC = () => {
           <Dropdown
             title="Learning"
             items={["☕ Java", "🐍 Python", "🧠 DSA"]}
-            backgroundColor="rgba(255, 0, 255, 0.1)"
-            accentColor="#ff00ff"
+            backgroundColor="rgba(25, 25, 112, 0.2)"
+            accentColor="#191970"
           />
         </div>
 

@@ -12,15 +12,15 @@ const Header: React.FC = () => {
           margin: "0px",
           height: "50px",
           marginBottom: "30px",
-          color: "#00ffff",
+          color: "#dc267f",
           marginTop: "20px",
           overflow: "hidden",
           whiteSpace: "nowrap",
           borderRadius: "25px",
           display: "flex",
           alignItems: "center",
-          boxShadow: "0 8px 25px rgba(0, 255, 255, 0.2)",
-          border: "1px solid rgba(0, 255, 255, 0.3)",
+          boxShadow: "0 8px 25px rgba(220, 38, 127, 0.2)",
+          border: "1px solid rgba(220, 38, 127, 0.3)",
           position: "relative",
         }}
       >
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
             fontSize: "18px",
             fontWeight: "600",
             letterSpacing: "2px",
-            textShadow: "0 0 10px rgba(0, 255, 255, 0.8)",
+            textShadow: "0 0 10px rgba(220, 38, 127, 0.8)",
           }}
         >
           🚀 Personal Desires: Teacher, Researcher, Entrepreneur! ⭐
@@ -108,21 +108,21 @@ const Header: React.FC = () => {
               width: "120px",
               height: "120px",
               borderRadius: "50%",
-              border: "3px solid rgba(0, 255, 255, 0.6)",
+              border: "3px solid rgba(220, 38, 127, 0.6)",
               boxShadow:
-                "0 0 30px rgba(0, 255, 255, 0.4), 0 0 60px rgba(255, 0, 255, 0.2)",
+                "0 0 30px rgba(220, 38, 127, 0.4), 0 0 60px rgba(255, 99, 71, 0.2)",
               transition: "all 0.3s ease",
               animation: "float 6s ease-in-out infinite",
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "scale(1.1) rotate(5deg)";
               e.currentTarget.style.boxShadow =
-                "0 0 40px rgba(0, 255, 255, 0.8), 0 0 80px rgba(255, 0, 255, 0.4)";
+                "0 0 40px rgba(220, 38, 127, 0.8), 0 0 80px rgba(255, 99, 71, 0.4)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "scale(1) rotate(0deg)";
               e.currentTarget.style.boxShadow =
-                "0 0 30px rgba(0, 255, 255, 0.4), 0 0 60px rgba(255, 0, 255, 0.2)";
+                "0 0 30px rgba(220, 38, 127, 0.4), 0 0 60px rgba(255, 99, 71, 0.2)";
             }}
           />
         </div>
@@ -140,7 +140,7 @@ const Header: React.FC = () => {
           Creator{" "}
           <span
             style={{
-              background: "linear-gradient(45deg, #00ffff, #ff00ff, #ffff00)",
+              background: "linear-gradient(45deg, #dc267f, #ff6347, #191970)",
               backgroundSize: "200% 200%",
               animation: "gradient-shift 3s ease infinite",
               WebkitBackgroundClip: "text",
@@ -149,8 +149,8 @@ const Header: React.FC = () => {
               padding: "5px 15px",
               borderRadius: "25px",
               display: "inline-block",
-              boxShadow: "0 0 30px rgba(0, 255, 255, 0.5)",
-              border: "2px solid rgba(0, 255, 255, 0.3)",
+              boxShadow: "0 0 30px rgba(220, 38, 127, 0.5)",
+              border: "2px solid rgba(220, 38, 127, 0.3)",
               position: "relative",
             }}
           >

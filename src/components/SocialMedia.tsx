@@ -6,7 +6,7 @@ const SocialMedia: React.FC = () => {
       name: "GitHub",
       url: "https://github.com/Vadank-Ji",
       icon: "🐙",
-      color: "#00ffff",
+      color: "#dc267f",
     },
     {
       name: "LinkedIn",
@@ -24,7 +24,7 @@ const SocialMedia: React.FC = () => {
       name: "Email",
       url: "mailto:vadank0806@gmail.com",
       icon: "📧",
-      color: "#ff00ff",
+      color: "#ff6347",
     },
   ];
 
@@ -48,7 +48,7 @@ const SocialMedia: React.FC = () => {
           right: "0",
           bottom: "0",
           background:
-            "radial-gradient(circle at 40% 30%, rgba(255, 0, 255, 0.1) 0%, transparent 50%), radial-gradient(circle at 60% 70%, rgba(0, 255, 255, 0.1) 0%, transparent 50%)",
+            "radial-gradient(circle at 40% 30%, rgba(255, 99, 71, 0.1) 0%, transparent 50%), radial-gradient(circle at 60% 70%, rgba(220, 38, 127, 0.1) 0%, transparent 50%)",
           animation: "pulse 6s ease-in-out infinite",
           pointerEvents: "none",
         }}
