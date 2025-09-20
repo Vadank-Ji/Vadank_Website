@@ -1,21 +1,12 @@
-# 🚀 PORTFOLIO_WEBSITE# Getting Started with Create React App
+# 🚀 Vadank_Website
 
-
-
-## OverviewThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## Overview
 A modern, high-contrast React TypeScript portfolio website featuring an interactive mind map design, glassmorphism effects, and responsive layout. Built with cutting-edge web technologies and deployed on Vercel.
-
-## Available Scripts
 
 ## ✨ Features
 
-In the project directory, you can run:
-
 ### 🎨 Visual Design
-
-- **High-Contrast Theme**: Black-navy-red color scheme inspired by code editors### `npm start`
-
+- **High-Contrast Theme**: Black-navy-red color scheme inspired by code editors
 - **Interactive Mind Map**: Central hub with connected skill nodes
 
 - **Glassmorphism Effects**: Beautiful translucent components with backdrop blurRuns the app in the development mode.\
@@ -106,10 +97,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/Vadank-Ji/PORTFOLIO_WEBSITE.git
+git clone https://github.com/Vadank-Ji/Vadank_Website.git
 
 # Navigate to project directory
-cd PORTFOLIO_WEBSITE
+cd Vadank_Website
 
 # Install dependencies
 npm install
