@@ -156,7 +156,7 @@ const Header: React.FC = () => {
           >
             Creator: Vadank
           </span>{" "}
-          through your SCREEN!
+          - Crafting Digital Experiences!
         </h1>
       </div>
     </>
