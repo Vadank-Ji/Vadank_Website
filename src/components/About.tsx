@@ -153,7 +153,8 @@ const About: React.FC = () => {
         {/* Professional Journey & Background */}
         <div
           style={{
-            background: "linear-gradient(135deg, rgba(25, 25, 112, 0.3), rgba(75, 0, 130, 0.2))",
+            background:
+              "linear-gradient(135deg, rgba(25, 25, 112, 0.3), rgba(75, 0, 130, 0.2))",
             padding: "35px",
             borderRadius: "25px",
             marginBottom: "40px",
@@ -173,83 +174,220 @@ const About: React.FC = () => {
           >
             🚀 My Journey & Vision
           </h2>
-          
-          <div style={{ 
-            display: "grid", 
-            gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", 
-            gap: "30px",
-            marginBottom: "30px"
-          }}>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
+              gap: "30px",
+              marginBottom: "30px",
+            }}
+          >
             <div>
-              <h3 style={{
-                color: "#dc267f",
-                fontSize: "24px",
-                marginBottom: "15px",
-                fontWeight: "700",
-                textShadow: "0 0 15px rgba(220, 38, 127, 1)",
-              }}>
+              <h3
+                style={{
+                  color: "#dc267f",
+                  fontSize: "24px",
+                  marginBottom: "15px",
+                  fontWeight: "700",
+                  textShadow: "0 0 15px rgba(220, 38, 127, 1)",
+                }}
+              >
                 🎓 Background & Education
               </h3>
-              <p style={{
-                color: "#ffffff",
-                fontSize: "18px",
-                lineHeight: "1.7",
-                fontWeight: "500",
-                textShadow: "0 0 10px rgba(255, 255, 255, 0.5)",
-              }}>
-                Computer Science student with a passion for technology and innovation. 
-                Currently pursuing my degree while actively building real-world projects 
-                and staying updated with the latest industry trends. Strong foundation 
-                in programming fundamentals, data structures, and software engineering principles.
+              <p
+                style={{
+                  color: "#ffffff",
+                  fontSize: "18px",
+                  lineHeight: "1.7",
+                  fontWeight: "500",
+                  textShadow: "0 0 10px rgba(255, 255, 255, 0.5)",
+                }}
+              >
+                Computer Science student with a passion for technology and
+                innovation. Currently pursuing my degree while actively building
+                real-world projects and staying updated with the latest industry
+                trends. Strong foundation in programming fundamentals, data
+                structures, and software engineering principles.
               </p>
             </div>
 
             <div>
-              <h3 style={{
-                color: "#ff6347",
-                fontSize: "24px",
-                marginBottom: "15px",
-                fontWeight: "700",
-                textShadow: "0 0 15px rgba(255, 99, 71, 1)",
-              }}>
+              <h3
+                style={{
+                  color: "#ff6347",
+                  fontSize: "24px",
+                  marginBottom: "15px",
+                  fontWeight: "700",
+                  textShadow: "0 0 15px rgba(255, 99, 71, 1)",
+                }}
+              >
                 💼 Professional Aspirations
               </h3>
-              <p style={{
-                color: "#ffffff",
-                fontSize: "18px",
-                lineHeight: "1.7",
-                fontWeight: "500",
-                textShadow: "0 0 10px rgba(255, 255, 255, 0.5)",
-              }}>
-                Aspiring to become a Full-Stack Developer and eventually transition into 
-                AI/ML engineering. My goal is to create impactful applications that solve 
-                real-world problems while continuously learning cutting-edge technologies. 
-                Passionate about clean code, user experience, and innovative solutions.
+              <p
+                style={{
+                  color: "#ffffff",
+                  fontSize: "18px",
+                  lineHeight: "1.7",
+                  fontWeight: "500",
+                  textShadow: "0 0 10px rgba(255, 255, 255, 0.5)",
+                }}
+              >
+                My goal is to create impactful applications that solve "
+                real-world problems while continuously learning cutting-edge
+                technologies. Passionate about clean code, user experience, and
+                innovative solutions.
               </p>
             </div>
           </div>
 
           <div style={{ textAlign: "center" }}>
-            <h3 style={{
-              color: "#4b0082",
-              fontSize: "24px",
-              marginBottom: "20px",
-              fontWeight: "700",
-              textShadow: "0 0 15px rgba(75, 0, 130, 1)",
-            }}>
+            <h3
+              style={{
+                color: "#4b0082",
+                fontSize: "24px",
+                marginBottom: "20px",
+                fontWeight: "700",
+                textShadow: "0 0 15px rgba(75, 0, 130, 1)",
+              }}
+            >
               🎯 Current Focus Areas
             </h3>
-            <div style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-              gap: "15px",
-              marginBottom: "25px"
-            }}>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                gap: "15px",
+                marginBottom: "25px",
+              }}
+            >
               {[
-                "React & TypeScript", "Node.js & Express", "Python & Django",
-                "Machine Learning", "Cloud Computing", "DevOps & CI/CD",
-                "UI/UX Design", "Database Design", "API Development"
+                {
+                  name: "React & TypeScript",
+                  icon: (
+                    <>
+                      <span
+                        style={{
+                          marginRight: "8px",
+                          color: "#61DAFB",
+                          fontSize: "18px",
+                        }}
+                      >
+                        ⚛
+                      </span>
+                      <span
+                        style={{
+                          marginRight: "5px",
+                          color: "#3178C6",
+                          fontSize: "18px",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        TS
+                      </span>
+                    </>
+                  ),
+                },
+                {
+                  name: "Data Science",
+                  icon: (
+                    <span
+                      style={{
+                        marginRight: "8px",
+                        color: "#FF6B6B",
+                        fontSize: "18px",
+                      }}
+                    >
+                      📊
+                    </span>
+                  ),
+                },
+                {
+                  name: "Python & Django",
+                  icon: (
+                    <>
+                      <span
+                        style={{
+                          marginRight: "8px",
+                          color: "#3776AB",
+                          fontSize: "18px",
+                        }}
+                      >
+                        🐍
+                      </span>
+                      <span
+                        style={{
+                          marginRight: "5px",
+                          color: "#092E20",
+                          fontSize: "14px",
+                          fontWeight: "bold",
+                          background: "#fff",
+                          borderRadius: "3px",
+                          padding: "2px 4px",
+                        }}
+                      >
+                        DJ
+                      </span>
+                    </>
+                  ),
+                },
+                {
+                  name: "Machine Learning",
+                  icon: (
+                    <span
+                      style={{
+                        marginRight: "8px",
+                        color: "#FF9500",
+                        fontSize: "18px",
+                      }}
+                    >
+                      🤖
+                    </span>
+                  ),
+                },
+                {
+                  name: "UI/UX Design",
+                  icon: (
+                    <span
+                      style={{
+                        marginRight: "8px",
+                        color: "#FF4081",
+                        fontSize: "18px",
+                      }}
+                    >
+                      🎨
+                    </span>
+                  ),
+                },
+                {
+                  name: "Database Design",
+                  icon: (
+                    <span
+                      style={{
+                        marginRight: "8px",
+                        color: "#4CAF50",
+                        fontSize: "18px",
+                      }}
+                    >
+                      🗄️
+                    </span>
+                  ),
+                },
+                {
+                  name: "API Development",
+                  icon: (
+                    <span
+                      style={{
+                        marginRight: "8px",
+                        color: "#9C27B0",
+                        fontSize: "18px",
+                      }}
+                    >
+                      🔗
+                    </span>
+                  ),
+                },
               ].map((skill, index) => (
                 <span
                   key={index}
@@ -263,9 +401,12 @@ const About: React.FC = () => {
                     border: "2px solid rgba(220, 38, 127, 0.6)",
                     boxShadow: "0 8px 20px rgba(220, 38, 127, 0.3)",
                     textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
+                    display: "flex",
+                    alignItems: "center",
                   }}
                 >
-                  {skill}
+                  {skill.icon}
+                  {skill.name}
                 </span>
               ))}
             </div>
@@ -275,7 +416,8 @@ const About: React.FC = () => {
         {/* Interests & Hobbies */}
         <div
           style={{
-            background: "linear-gradient(135deg, rgba(255, 20, 147, 0.3), rgba(138, 43, 226, 0.2))",
+            background:
+              "linear-gradient(135deg, rgba(255, 20, 147, 0.3), rgba(138, 43, 226, 0.2))",
             padding: "35px",
             borderRadius: "25px",
             marginBottom: "40px",
@@ -295,96 +437,116 @@ const About: React.FC = () => {
           >
             🌟 Beyond Code: My Interests
           </h2>
-          
-          <div style={{ 
-            display: "grid", 
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", 
-            gap: "25px" 
-          }}>
-            <div style={{
-              background: "rgba(255, 20, 147, 0.2)",
-              padding: "25px",
-              borderRadius: "20px",
-              border: "2px solid rgba(255, 20, 147, 0.6)",
-              textAlign: "center"
-            }}>
-              <h3 style={{
-                color: "#ff1493",
-                fontSize: "22px",
-                marginBottom: "15px",
-                fontWeight: "700",
-                textShadow: "0 0 15px rgba(255, 20, 147, 1)",
-              }}>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+              gap: "25px",
+            }}
+          >
+            <div
+              style={{
+                background: "rgba(255, 20, 147, 0.2)",
+                padding: "25px",
+                borderRadius: "20px",
+                border: "2px solid rgba(255, 20, 147, 0.6)",
+                textAlign: "center",
+              }}
+            >
+              <h3
+                style={{
+                  color: "#ff1493",
+                  fontSize: "22px",
+                  marginBottom: "15px",
+                  fontWeight: "700",
+                  textShadow: "0 0 15px rgba(255, 20, 147, 1)",
+                }}
+              >
                 🎮 Gaming & Tech
               </h3>
-              <p style={{
-                color: "#ffffff",
-                fontSize: "16px",
-                lineHeight: "1.6",
-                fontWeight: "500",
-                textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
-              }}>
-                Passionate gamer who loves exploring virtual worlds and understanding 
-                game mechanics. This hobby enhances my problem-solving skills and 
-                keeps me updated with the latest in interactive technology.
+              <p
+                style={{
+                  color: "#ffffff",
+                  fontSize: "16px",
+                  lineHeight: "1.6",
+                  fontWeight: "500",
+                  textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
+                }}
+              >
+                Passionate gamer who loves exploring different AAA titles. This
+                hobby enhances my problem-solving skills and communication
+                skills. And prevents me from burning out!
               </p>
             </div>
 
-            <div style={{
-              background: "rgba(138, 43, 226, 0.2)",
-              padding: "25px",
-              borderRadius: "20px",
-              border: "2px solid rgba(138, 43, 226, 0.6)",
-              textAlign: "center"
-            }}>
-              <h3 style={{
-                color: "#8a2be2",
-                fontSize: "22px",
-                marginBottom: "15px",
-                fontWeight: "700",
-                textShadow: "0 0 15px rgba(138, 43, 226, 1)",
-              }}>
+            <div
+              style={{
+                background: "rgba(138, 43, 226, 0.2)",
+                padding: "25px",
+                borderRadius: "20px",
+                border: "2px solid rgba(138, 43, 226, 0.6)",
+                textAlign: "center",
+              }}
+            >
+              <h3
+                style={{
+                  color: "#8a2be2",
+                  fontSize: "22px",
+                  marginBottom: "15px",
+                  fontWeight: "700",
+                  textShadow: "0 0 15px rgba(138, 43, 226, 1)",
+                }}
+              >
                 📚 Continuous Learning
               </h3>
-              <p style={{
-                color: "#ffffff",
-                fontSize: "16px",
-                lineHeight: "1.6",
-                fontWeight: "500",
-                textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
-              }}>
-                Always curious and eager to learn new technologies, frameworks, 
-                and programming paradigms. I believe in staying ahead of the curve 
-                and adapting to the ever-evolving tech landscape.
+              <p
+                style={{
+                  color: "#ffffff",
+                  fontSize: "16px",
+                  lineHeight: "1.6",
+                  fontWeight: "500",
+                  textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
+                }}
+              >
+                Always curious and eager to learn new technologies, frameworks,
+                and programming paradigms. I believe in staying ahead of the
+                curve and adapting to the ever-evolving tech landscape.
               </p>
             </div>
 
-            <div style={{
-              background: "rgba(186, 85, 211, 0.2)",
-              padding: "25px",
-              borderRadius: "20px",
-              border: "2px solid rgba(186, 85, 211, 0.6)",
-              textAlign: "center"
-            }}>
-              <h3 style={{
-                color: "#ba55d3",
-                fontSize: "22px",
-                marginBottom: "15px",
-                fontWeight: "700",
-                textShadow: "0 0 15px rgba(186, 85, 211, 1)",
-              }}>
+            <div
+              style={{
+                background: "rgba(186, 85, 211, 0.2)",
+                padding: "25px",
+                borderRadius: "20px",
+                border: "2px solid rgba(186, 85, 211, 0.6)",
+                textAlign: "center",
+              }}
+            >
+              <h3
+                style={{
+                  color: "#ba55d3",
+                  fontSize: "22px",
+                  marginBottom: "15px",
+                  fontWeight: "700",
+                  textShadow: "0 0 15px rgba(186, 85, 211, 1)",
+                }}
+              >
                 🤝 Collaboration
               </h3>
-              <p style={{
-                color: "#ffffff",
-                fontSize: "16px",
-                lineHeight: "1.6",
-                fontWeight: "500",
-                textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
-              }}>
-                I thrive in team environments and enjoy collaborating on projects. 
-                Love sharing knowledge, learning from others, and contributing to 
-                open-source communities.
+              <p
+                style={{
+                  color: "#ffffff",
+                  fontSize: "16px",
+                  lineHeight: "1.6",
+                  fontWeight: "500",
+                  textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
+                }}
+              >
+                I thrive both in solo as well as in team environments and enjoy
+                collaborating on projects. Love sharing knowledge, learning from
+                others, and contributing to open-source communities.
               </p>
             </div>
           </div>
@@ -448,7 +610,8 @@ const About: React.FC = () => {
                 transition: "all 0.3s ease",
                 textShadow: "0 0 10px rgba(255, 255, 255, 0.8)",
                 textDecoration: "none",
-                display: "inline-block",
+                display: "inline-flex",
+                alignItems: "center",
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.background = "rgba(220, 38, 127, 0.6)";
@@ -464,7 +627,8 @@ const About: React.FC = () => {
                 e.currentTarget.style.transform = "translateY(0px) scale(1)";
               }}
             >
-              📧 Email Me
+              <span style={{ marginRight: "8px", fontSize: "18px" }}>✉️</span>
+              Email Me
             </a>
 
             <a
@@ -484,7 +648,8 @@ const About: React.FC = () => {
                 transition: "all 0.3s ease",
                 textShadow: "0 0 10px rgba(255, 255, 255, 0.8)",
                 textDecoration: "none",
-                display: "inline-block",
+                display: "inline-flex",
+                alignItems: "center",
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.background = "rgba(255, 99, 71, 0.6)";
@@ -500,7 +665,81 @@ const About: React.FC = () => {
                 e.currentTarget.style.transform = "translateY(0px) scale(1)";
               }}
             >
-              💼 LinkedIn
+              <span
+                style={{
+                  marginRight: "8px",
+                  fontSize: "18px",
+                  color: "#0077B5",
+                  fontWeight: "bold",
+                  background: "#fff",
+                  borderRadius: "3px",
+                  padding: "2px 6px",
+                  textShadow: "none",
+                }}
+              >
+                in
+              </span>
+              LinkedIn
+            </a>
+
+            <a
+              href="https://github.com/Vadank-Ji"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                background: "rgba(138, 43, 226, 0.3)",
+                color: "#ffffff",
+                border: "3px solid #8a2be2",
+                padding: "15px 30px",
+                borderRadius: "30px",
+                fontSize: "18px",
+                fontWeight: "700",
+                cursor: "pointer",
+                boxShadow: "0 12px 35px rgba(138, 43, 226, 0.4)",
+                transition: "all 0.3s ease",
+                textShadow: "0 0 10px rgba(255, 255, 255, 0.8)",
+                textDecoration: "none",
+                display: "inline-flex",
+                alignItems: "center",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = "rgba(138, 43, 226, 0.6)";
+                e.currentTarget.style.boxShadow =
+                  "0 20px 50px rgba(138, 43, 226, 0.8)";
+                e.currentTarget.style.transform =
+                  "translateY(-5px) scale(1.05)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "rgba(138, 43, 226, 0.3)";
+                e.currentTarget.style.boxShadow =
+                  "0 12px 35px rgba(138, 43, 226, 0.4)";
+                e.currentTarget.style.transform = "translateY(0px) scale(1)";
+              }}
+            >
+              <span
+                style={{
+                  marginRight: "8px",
+                  fontSize: "18px",
+                  color: "#333",
+                  fontWeight: "bold",
+                  background: "#fff",
+                  borderRadius: "50%",
+                  padding: "4px 6px",
+                  textShadow: "none",
+                }}
+              >
+                <svg
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                    fill: "#000000ff",
+                  }}
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </span>
+              GitHub
             </a>
           </div>
         </div>
